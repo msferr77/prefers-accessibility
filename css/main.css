@@ -64,16 +64,20 @@ html {
 /* stylelint-disable media-feature-name-no-unknown */
 
 @media (prefers-reduced-motion) {
+
   .gear {
     animation: none;
   }
+
 }
 
 @media (prefers-color-scheme: dark) {
+
   body {
     background-color: #696969;
-    color: #fff
+    color: #fff;
   }
+
 }
 
 /**
